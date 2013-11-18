@@ -1,0 +1,25 @@
+{
+  "name": "mails-flat",
+  "version": "0.0.1",
+  "view engine": "swig",
+  "logo": "http://ww2.sinaimg.cn/large/61ff0de3gw1eapbk1ww8nj2019019mwy.jpg",
+  "description": "flat email templates for mails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turingou/mails-flat.git"
+  },
+  "keywords": [
+    "mails",
+    "email",
+    "templates"
+  ],
+  "author": "turing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turingou/mails-flat/issues"
+  }
+}

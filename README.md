@@ -18,6 +18,10 @@ mails.render('mails-flat/message', function(err, html){
 });
 ````
 
+### Theme variables
+
+mails-flat using `swig` to create htmls, checkout variables in `message.html` and `package.json`
+
 ### Contributing
 - Fork this repo
 - Clone your repo

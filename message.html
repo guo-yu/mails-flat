@@ -1,0 +1,134 @@
+{% extends 'layout.html' %}
+
+{% block css %}
+<link rel="stylesheet" href="./styles/mails.css" />
+<link rel="stylesheet" href="./styles/message.css" />
+{% endblock %}
+
+{% block content %}
+         
+  <table class="row header">
+    <tr>
+      <td class="center" align="center">
+        <center>
+  
+          <table class="container">
+            <tr>
+              <td class="wrapper last">
+    
+                <table class="twelve columns">
+                  <tr>
+                  
+                    <td class="six sub-columns">
+                      <img src="{{logo}}" title="{{name}}" alt="{{name}}">
+                    </td>
+                    <td class="six sub-columns last" align="right" style="text-align:right; vertical-align:middle;">
+                      <span class="template-label">{{description}}</span>
+                    </td>
+                    <td class="expander"></td>
+                    
+                  </tr>
+                </table>
+    
+              </td>
+            </tr>
+          </table>
+
+        </center>
+      </td>
+    </tr>
+  </table> 
+  <br>
+  
+  <table class="container main-content">
+    <tr>
+      <td>
+        
+        <!-- content start -->
+        <table class="row">
+          <tr>
+            <td class="wrapper last">
+        
+              <table class="twelve columns">
+                <tr>
+                  <td>
+
+                    <h3 class="title">{{title}}</h3>
+                    <p class="lead desc">{{subtitle}}</p>
+
+                  </td>
+                  <td class="expander"></td>
+                </tr>
+              </table>
+        
+            </td>
+          </tr>
+        </table>
+        
+        <table class="row link">
+          <tr>
+            <td class="wrapper last">
+
+              <table class="five columns">
+                <tr>
+                  <td>
+
+                    <a class="button" href="{{link.href}}" target="_blank">
+                      <table>
+                        <tr>
+                          <td>
+                            {{link.text}}
+                          </td>
+                        </tr>
+                      </table>
+                    </a>
+
+                  </td>
+                  <td class="expander"></td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+        </table>
+        
+        <!-- container end below -->
+      </td>
+    </tr>
+  </table> 
+
+
+  <table class="container footer">
+    <tr>
+      <td>
+
+        <table class="row">
+          <tr>
+            <td class="wrapper last">
+    
+              <table class="twelve columns">
+                <tr>
+                  <td>
+                    <center>
+                      <p>
+                        {% for key,value in footer %}
+                          <a href="{{value}}">{{key}}</a> 
+                        {% endfor %} | 
+                        <a class="copyright" href="https://github.com/turingou/mails-flat" taget="_blank">mails-flat theme </a>
+                        <a class="copyright" href="https://github.com/turingou/mails" taget="_blank">powered by mails</a>
+                    </center>
+                  </td>
+                  <td class="expander"></td>
+                </tr>
+              </table>
+    
+            </td>
+          </tr>
+        </table>
+        
+        <!-- container end below -->
+      </td>
+    </tr>
+  </table> 
+
+{% endblock %}

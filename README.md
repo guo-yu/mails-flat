@@ -1,6 +1,8 @@
-## ![logo](http://ww2.sinaimg.cn/large/61ff0de3gw1eapbk1ww8nj2019019mwy.jpg) mails-flat ![npm](https://badge.fury.io/js/mails-flat.png)
+## ![logo](http://ww2.sinaimg.cn/large/61ff0de3gw1eajmy0wdikj2014014wea.jpg) mails-flat ![npm](https://badge.fury.io/js/mails-flat.png)
 
 flat email templates for mails by [turing](https://npmjs.org/~turing) 
+
+![screenshot](http://ww2.sinaimg.cn/large/61ff0de3gw1eapg3os39oj20kt0f9q4j.jpg)
 
 ### Installation
 ````
